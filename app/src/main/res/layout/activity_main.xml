@@ -11,6 +11,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="My Nanodegree Apps!"
+        android:layout_margin="15dp"
+        android:textSize="25dp"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -19,8 +21,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="SPOTIFY STREAMER"
-        android:id="@+id/button"
+        android:id="@+id/button1"
+        android:layout_margin="5dp"
+        android:width="200dp"
         android:background="#F08C35"
+        android:onClick="onSpotify"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="37dp" />
@@ -28,31 +33,47 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="SCORES APP"
+        android:background="#F08C35"
+        android:width="200dp"
+        android:onClick="onScores"
         android:id="@+id/button2"
-        android:layout_below="@+id/button"
-        android:layout_alignStart="@+id/button" />
+        android:layout_margin="5dp"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="LIBRARY APP"
+        android:width="200dp"
+        android:onClick="onLibrary"
+        android:background="#F08C35"
         android:id="@+id/button3"
+        android:layout_margin="5dp"
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="BUILD IT BIGGER"
+        android:background="#F08C35"
+        android:onClick="onBuild"
+        android:width="200dp"
+        android:layout_margin="5dp"
         android:id="@+id/button4"
         android:layout_below="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="XYZ READER"
+        android:background="#F08C35"
+        android:onClick="onReader"
+        android:width="200dp"
+        android:layout_margin="5dp"
         android:id="@+id/button5"
         android:layout_below="@+id/button4"
         android:layout_centerHorizontal="true" />
@@ -60,7 +81,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Capstone"
+        android:width="200dp"
+        android:onClick="onCapstone"
+        android:layout_margin="5dp"
+        android:background="#C2185B"
         android:id="@+id/button6"
         android:layout_below="@+id/button5"
         android:layout_centerHorizontal="true" />
